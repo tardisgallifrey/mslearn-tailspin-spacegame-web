@@ -55,7 +55,7 @@ steps:
     zipAfterPublish: true
 
 - task: WhiteSource Bolt@20
-  displayName: 'Run WhiteSource Bolt'
+  displayName: 'WhiteSource Bolt Run'
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
