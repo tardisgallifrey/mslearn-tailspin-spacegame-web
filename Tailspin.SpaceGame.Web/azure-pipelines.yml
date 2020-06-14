@@ -22,7 +22,7 @@ steps:
     versionSpec: '5.6.0'
 
 - task: Npm@1
-  displayName: 'Run npm install'
+  displayName: 'npm run install'
   inputs:
     verbose: false
 
